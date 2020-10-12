@@ -82,3 +82,19 @@ h3 {
 display: inline-block;
 }
 }
+/* contact main page */
+.contact-main{
+  padding-top: 25px;
+  font-size: 2rem;
+  min-height: 76vh;
+  /* text-shadow: 2px 3px 2.5px #000000; */
+  background-color: rgb(2, 96, 128);
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+/* .form{
+  padding-top: 25px;
+} */
