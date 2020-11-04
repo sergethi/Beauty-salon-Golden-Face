@@ -9,7 +9,7 @@ function Nav() {
 
   return (
     <nav>
-      <h3>General Square Tech</h3>
+      <h3>Golden-Face</h3>
       <ul className='nav-links'>
       <Link to="/Home">
         <li>Home</li>
@@ -22,9 +22,6 @@ function Nav() {
       </Link>
       <Link  to="/Contact">
         <li>Contact</li>
-      </Link>
-      <Link  to="/Projects">
-        <li>Projects</li>
       </Link>
       </ul>
     </nav>

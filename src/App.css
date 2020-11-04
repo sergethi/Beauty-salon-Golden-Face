@@ -3,74 +3,231 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   text-align: center;
-  background-color: lightgray;
+  background-color: white;
 }
 
-.home, .main {
-  font-size: 5rem;
+.home, 
+.main {
+  font-size: 2rem;
   min-height: 76vh;
-  text-shadow: 2px 3px 2.5px #000000;
-  background-color: rgb(2, 96, 128);
+  /* text-shadow: 2px 3px 2.5px #000000; */
+  background-color: white;
+  /* text-align: center; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-direction: column;
   color: white;
 }
 
 h3 {
+  position: absolute;
+  margin-top: 37px;
   font-size: .9rem;
-  color: white;
+  color:#555;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: .5px 1.5px 3px lightblue;
+  margin-left: 115px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  /* display: flex;
+  justify-content: space-around; */
+  /* align-items: center; */
   height: 12vh;
   font-style: 1.2rem;
-  background-color: #003f5c;
+  background-color: whitesmoke;
   border-bottom: 3px solid #f4f4f4;
 }
 
 .nav-links {
   width: 40%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* display: flex;
+  justify-content: space-between; */
+  margin-top: 37px;
+  float: right;
   list-style: none;
   color: white;
   font-size: 1.2rem;
+ 
 }
 
 li {
   
   font-style: italic;
-  color: lightgray;
+  color:#555;
+  display: inline-block;
+  margin-left: 25px;
+  
+
+  
 }
 
 li:hover {
-border-bottom: 1px solid red;
-color: aqua;
+border-bottom: 1px solid black;
+color: gold;
 }
 
 a {
   text-decoration: none;
 }
 .Footer {
-  display: flex;
+  
+  /* display: flex;
   align-items: center;
-  justify-content: center;
-  height: 12vh;
-  background-color: #003f5c;
-  color: white;
+  justify-content: center; */
+   position: absolute;
+  left: 0;  
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 10vh;
+  background-color: #e9d8c8;
+  color: #555;
   font-size: 1rem;
 }
+Footer p {
+  position: absolute;
+  padding-top: 27px;
+  margin-left: 400px;
+	font-size: 20px;
+	line-height: 24px;
+}
+.social {
+  /* position: absolute; */
+  text-align: right;
+  /* float: right; */
+  padding-top: 27px;
+  
+}
+.social a {
+  
+	text-decoration: none;
+  margin-right: 25px;
+  padding-right: 25px;
+	opacity: .6;
+}
+
+/* HOMEMMMMMMMMMMMMMMM */
+.Home-img{
+  text-align: center;
+  
+  
+  height: 600px;
+  width: 90%;
+  background-color: lightgray;
+  background-image: url("/images/fashion-3080644_1920.jpg");
+  background-size: cover;
+}
+.Home-img div {
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 25px;
+}
+
+/* Abouttttttttttt */
+.about-pic{
+  text-align: center;
+  
+  height: 200px;
+  width: 90%;
+  background-color: lightgray;
+  background-image: url("/images/makeup-5564392_1920.png");
+  background-size: cover;
+}
+.home h1 {
+  margin-top: 70px;
+  color: goldenrod;
+}
+hr {
+  color: black;
+  width: 80%;
+}
+.home p {
+  color: black;
+  text-indent:1em;  
+  text-align:justify;
+  font-size: 25px;
+  margin-left: 70px;
+  margin-right: 80px;
+  margin-top: 25px;
+}
+
+/* servicessssssssssssssssss */
+.services-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  text-align: center;
+  justify-content: space-around;
+  
+}
+.services-items{
+  margin-right: 0px;
+  /* background-color: peachpuff; */
+  display: flex;
+  flex-direction: row;
+  padding-right: 1px;
+  
+}
+.pic1{
+  height: 300px;
+  width: 300px;
+  background-color: lime;
+  background-image: url("/images/hairdresser-4682912_640.jpg");
+  background-size: cover;
+}
+.text1 {
+  height: 300px;
+  width: 150px;
+  /* background-color: pink; */
+
+}
+.text1 h3 {
+  margin-left: 8px;
+}
+.pic2{
+  height: 300px;
+  width: 300px;
+  background-color: orchid;
+  background-image: url("/images/nail-2583493_640.jpg");
+  background-size: cover;
+}
+.text2 {
+  height: 300px;
+  width: 150px;
+  /* background-color: pink; */
+
+}
+.text2 h3 {
+  margin-left: 8px;
+}
+.pic3{
+  height: 300px;
+  width: 300px;
+  background-color: olive;
+  background-image: url("/images/makeup-791303_640.jpg");
+  background-size: cover;
+  
+}
+.text3 {
+  height: 300px;
+  width: 150px;
+  /* background-color: pink; */
+}
+.text3 h3 {
+  margin-left: 8px;
+}
+
 
 @media screen and (max-width:768px){
   .nav-links {
@@ -88,7 +245,7 @@ display: inline-block;
   font-size: 2rem;
   min-height: 76vh;
   /* text-shadow: 2px 3px 2.5px #000000; */
-  background-color: rgb(2, 96, 128);
+  background-color: lightslategray;
   /* display: flex; */
   align-items: center;
   justify-content: center;
