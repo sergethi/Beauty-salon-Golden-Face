@@ -17,12 +17,12 @@ body {
 .main {
   font-size: 2rem;
   min-height: 76vh;
-  /* text-shadow: 2px 3px 2.5px #000000; */
+ 
   background-color: white;
-  /* text-align: center; */
+ 
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  
   flex-direction: column;
   color: white;
 }
@@ -240,18 +240,110 @@ display: inline-block;
 }
 }
 /* contact main page */
-.contact-main{
+/* .contact-main{
   padding-top: 25px;
   font-size: 2rem;
   min-height: 76vh;
-  /* text-shadow: 2px 3px 2.5px #000000; */
   background-color: lightslategray;
-  /* display: flex; */
   align-items: center;
   justify-content: center;
   color: white;
 
+} */
+
+/* form styles */
+
+.hero {
+	text-align: center;
+	padding: 10%;
+	color: #fff;
+	background-color: #520;
+  background-image: url("/images/comb-350077_1920.jpg");
+  background-size: cover;
+  background-position: center;
+	/*background-position: center 75%;
+	background-repeat: no-repeat;
+	background-size: cover; */
 }
-/* .form{
-  padding-top: 25px;
+.hero h1 {
+  color: goldenrod;
+  font-size: 80px;
+  font-weight: bolder;
+}
+.contact-flex-container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+.left-container {
+  height: 800px;
+  width: 800px;
+  background-color: purple;
+}
+
+
+form {
+  width: 700px;
+  background-color: silver;
+  border: 1px solid #e9d8c8;
+	border-radius: 6px;
+  padding: 5%;
+  margin-bottom: 20px;
+}
+form p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+label, input {
+	display: block;
+}
+label {
+  text-align: left;
+}
+input, button {
+	font-family: 'Abel', sans-serif;
+	font-size: 19px;
+}
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	border: 1px solid #e9d8c8;
+	border-radius: 6px;
+}
+button {
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+.contact {
+  margin-bottom: 20px;
+	cursor: pointer;
+	background-color: #8842c2;
+	color: #fff;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.form-address {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.form-call {
+  margin-bottom: 40px;
+}
+
+/* .form-envelop {
+  margin-top: 80px;
+  margin-bottom: 40px;
+} */
+
+/* .fullNameField, .emailField {
+  margin-left: 10px;
 } */
