@@ -123,7 +123,9 @@ class Contact extends Component {
 
               <div className="form-envelop">
               <img src="/images/envelope.png" width="24" height="24" alt="envelope"/><h2>General Support</h2><br />
-              <p>mjewell@outlook.com</p>
+              
+              <a href="mailto:someone@yoursite.com"><p>mjewell@outlook.com</p></a>  
+
               </div>
 
             </div>

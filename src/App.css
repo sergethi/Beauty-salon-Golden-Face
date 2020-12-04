@@ -136,7 +136,6 @@ Footer p {
 /* Abouttttttttttt */
 .about-pic{
   text-align: center;
-  
   height: 200px;
   width: 90%;
   background-color: lightgray;
@@ -168,6 +167,134 @@ hr {
   flex-direction: row;
   /* align-items: center; */
   text-align: center;
+  justify-content: space-between;
+  margin-bottom: 95px;
+  
+}
+.services-items{
+  margin-right: 0px;
+  /* background-color: peachpuff; */
+  display: flex;
+  flex-direction: row;
+  padding-right: 1px;
+  
+}
+.pic1{
+  height: 150px;
+  width: 150px;
+  background-color: lime;
+  background-image: url("/images/hairdresser-4682912_640.jpg");
+  background-size: cover;
+  margin-bottom: 8px;
+}
+.text1 {
+  height: 150px;
+  width: 150px;
+  /* background-color: pink; */
+
+}
+.text1 h3 {
+  margin-left: 8px;
+}
+.pic2{
+  height: 150px;
+  width: 150px;
+  background-color: orchid;
+  background-image: url("/images/nail-2583493_640.jpg");
+  background-size: cover;
+  margin-bottom: 8px;
+}
+.text2 {
+  height: 150px;
+  width: 150px;
+  /* background-color: pink; */
+
+}
+.text2 h3 {
+  margin-left: 8px;
+}
+.pic3{
+  height: 150px;
+  width: 150px;
+  background-color: olive;
+  background-image: url("/images/makeup-791303_640.jpg");
+  background-size: cover;
+  margin-bottom: 8px;
+}
+.text3 {
+  height: 150px;
+  width: 150px;
+  /* background-color: pink; */
+}
+.text3 h3 {
+  margin-left: 8px;
+}
+
+
+@media screen and (max-width:768px){
+  .nav-links {
+    /* display: none; */
+    font-size: 1rem;
+    width: 55%;
+  }
+h3 {
+/* display: inline-block; */
+font-size: .7rem;
+margin-left: 23px;
+}
+/* HOMEMMMMMMMMMMMMMMM */
+.Home-img{
+  margin-top: 10px;
+  text-align: center;
+  height: 500px;
+  width: 87%;
+  background-color: lightgray;
+  background-image: url("/images/fashion-3080644_1920.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.Home-img div {
+  text-align: left;
+  margin-top: 130px;
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+/* Abouttttttttttt */
+.about-pic{
+  text-align: center;
+  margin-top: 10px;
+  height: 200px;
+  width: 90%;
+  background-color: lightgray;
+  background-image: url("/images/makeup-5564392_1920.png");
+  background-size: cover;
+}
+.home h1 {
+  margin-top: 48px;
+  color: goldenrod;
+}
+hr {
+  color: black;
+  width: 80%;
+}
+.home p {
+  color: black;
+  /* text-indent: 0.1   */
+  text-align:center;
+  font-size: 20px;
+  margin-left: 70px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom:25px;
+}
+/* servicessssssssssssssssss */
+.services-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
   justify-content: space-around;
   
 }
@@ -180,14 +307,14 @@ hr {
   
 }
 .pic1{
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   background-color: lime;
   background-image: url("/images/hairdresser-4682912_640.jpg");
   background-size: cover;
 }
 .text1 {
-  height: 300px;
+  height: 200px;
   width: 150px;
   /* background-color: pink; */
 
@@ -196,14 +323,14 @@ hr {
   margin-left: 8px;
 }
 .pic2{
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   background-color: orchid;
   background-image: url("/images/nail-2583493_640.jpg");
   background-size: cover;
 }
 .text2 {
-  height: 300px;
+  height: 200px;
   width: 150px;
   /* background-color: pink; */
 
@@ -212,15 +339,15 @@ hr {
   margin-left: 8px;
 }
 .pic3{
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   background-color: olive;
   background-image: url("/images/makeup-791303_640.jpg");
   background-size: cover;
   
 }
 .text3 {
-  height: 300px;
+  height: 200px;
   width: 150px;
   /* background-color: pink; */
 }
@@ -228,16 +355,35 @@ hr {
   margin-left: 8px;
 }
 
-
-@media screen and (max-width:768px){
-  .nav-links {
-    display: none;
-    font-size: 1rem;
-    width: 55%;
-  }
-h3 {
-display: inline-block;
+/* contact */
+form {
+  display: none;
 }
+.form-envelop a {
+  color: black;
+  font-weight: bolder;
+}
+.form-envelop a:visited {
+  color: black;
+}
+
+/* FOOTER */
+Footer p {
+  /* position: absolute;
+  padding-top: 27px; */
+  margin-left: 5px;
+	font-size: 15px;
+	/* line-height: 24px; */
+}
+.social a {
+  margin-right: 5px;
+  padding-right: 5px;
+}
+.social {
+  padding-top: 25px;
+}
+
+
 }
 /* contact main page */
 /* .contact-main{
@@ -338,6 +484,7 @@ button {
 .form-call {
   margin-bottom: 40px;
 }
+
 
 /* .form-envelop {
   margin-top: 80px;
