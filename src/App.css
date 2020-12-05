@@ -66,9 +66,7 @@ li {
   color:#555;
   display: inline-block;
   margin-left: 25px;
-  
-
-  
+   
 }
 
 li:hover {
@@ -79,6 +77,11 @@ color: gold;
 a {
   text-decoration: none;
 }
+.burger-icon {
+ display: none;
+}
+
+
 .Footer {
   
   /* display: flex;
@@ -381,6 +384,34 @@ Footer p {
 }
 .social {
   padding-top: 25px;
+}
+
+/* NAVVVV */
+.burger-icon {
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 30px;
+  display: block;
+}
+.nav-links {
+  background-color: lightslategray;
+  background-size: contain;
+  position: absolute;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  width: 31%;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  
+}
+.nav-links li {
+  margin-top: 8px;
+}
+.nav-links li:hover {
+ color: goldenrod;
+ width: 100%;
 }
 
 
