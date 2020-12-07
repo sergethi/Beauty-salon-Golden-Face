@@ -156,7 +156,7 @@ hr {
 .home p {
   color: black;
   text-indent:1em;  
-  text-align:justify;
+  text-align:start;
   font-size: 25px;
   margin-left: 70px;
   margin-right: 80px;
@@ -284,12 +284,17 @@ hr {
 .home p {
   color: black;
   /* text-indent: 0.1   */
-  text-align:center;
+  /* text-align:center;
   font-size: 20px;
   margin-left: 70px;
   margin-right: 80px;
   margin-top: 20px;
-  margin-bottom:25px;
+  margin-bottom:25px; */
+  width: 80vw;
+  word-spacing: 1px;
+  font-size: 20px;
+  margin-bottom:100px;
+  text-align: start;
 }
 /* servicessssssssssssssssss */
 .services-container {
