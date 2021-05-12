@@ -4,6 +4,10 @@ import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import SendIcon from '@material-ui/icons/Send';
 import axios from 'axios'
+import address from '../images/addressIcon.png'
+import envelope from '../images/envelope.png'
+import phone from '../images/phone-call.png'
+
 
 
 
@@ -112,17 +116,17 @@ class Contact extends Component {
             <div className="left-container">
 
               <div className="form-address">
-              <img src="/images/addressIcon.png" width="24" height="24" alt="Address"/><h2>Address</h2><br />
+              <img src= {address} width="24" height="24" alt="Address"/><h2>Address</h2><br />
               <p>8381 Longbranch St.Hollis, NY 11423</p>
               </div>
 
               <div className="form-call">
-              <img src="/images/phone-call.png" width="24" height="24" alt="Phone"/><h2>Call Us</h2><br />
+              <img src= {phone} width="24" height="24" alt="Phone"/><h2>Call Us</h2><br />
               <p>(887) 201-1375</p>
               </div>
 
               <div className="form-envelop">
-              <img src="/images/envelope.png" width="24" height="24" alt="envelope"/><h2>General Support</h2><br />
+              <img src= {envelope} width="24" height="24" alt="envelope"/><h2>General Support</h2><br />
               
               <a href="mailto:someone@yoursite.com"><p>mjewell@outlook.com</p></a>  
 

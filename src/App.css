@@ -87,7 +87,7 @@ a {
   /* display: flex;
   align-items: center;
   justify-content: center; */
-   position: absolute;
+   position: relative;
   left: 0;  
   bottom: 0;
   width: 100%;
@@ -127,7 +127,7 @@ Footer p {
   height: 600px;
   width: 90%;
   background-color: lightgray;
-  background-image: url("/images/fashion-3080644_1920.jpg");
+  background-image: url("./images/fashion-3080644_1920.jpg");
   background-size: cover;
 }
 .Home-img div {
@@ -142,9 +142,51 @@ Footer p {
   height: 200px;
   width: 90%;
   background-color: lightgray;
-  background-image: url("/images/makeup-5564392_1920.png");
+  background-image: url("./images/makeup-5564392_1920.png");
   background-size: cover;
 }
+
+.about-flex {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.about-flex-text {
+  margin-top: 40px;
+  height: 400px;
+  width: 50%;
+
+  
+}
+.about-flex-img {
+  background-image: url("./images/about-unsplash.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 50%;
+}
+.about-img-3{
+  background-image: url("./images/about-manicur-SBDE-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.about-img-4{
+  background-image: url("./images/about-hair-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.about-img-5{
+  background-image: url("./images/about-salon-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-bottom: 20px;
+}
+/* .............................................. */
 .home h1 {
   margin-top: 70px;
   color: goldenrod;
@@ -186,7 +228,7 @@ hr {
   height: 150px;
   width: 150px;
   background-color: lime;
-  background-image: url("/images/hairdresser-4682912_640.jpg");
+  background-image: url("./images/hairdresser-4682912_640.jpg");
   background-size: cover;
   margin-bottom: 8px;
 }
@@ -203,7 +245,7 @@ hr {
   height: 150px;
   width: 150px;
   background-color: orchid;
-  background-image: url("/images/nail-2583493_640.jpg");
+  background-image: url("./images/nail-2583493_640.jpg");
   background-size: cover;
   margin-bottom: 8px;
 }
@@ -220,7 +262,7 @@ hr {
   height: 150px;
   width: 150px;
   background-color: olive;
-  background-image: url("/images/makeup-791303_640.jpg");
+  background-image: url("./images/makeup-791303_640.jpg");
   background-size: cover;
   margin-bottom: 8px;
 }
@@ -252,7 +294,7 @@ margin-left: 23px;
   height: 500px;
   width: 87%;
   background-color: lightgray;
-  background-image: url("/images/fashion-3080644_1920.jpg");
+  background-image: url("./images/fashion-3080644_1920.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -270,9 +312,12 @@ margin-left: 23px;
   height: 200px;
   width: 90%;
   background-color: lightgray;
-  background-image: url("/images/makeup-5564392_1920.png");
+  background-image: url("./images/makeup-5564392_1920.png");
   background-size: cover;
 }
+
+
+/* ******************************* */
 .home h1 {
   margin-top: 48px;
   color: goldenrod;
@@ -318,7 +363,7 @@ hr {
   height: 200px;
   width: 200px;
   background-color: lime;
-  background-image: url("/images/hairdresser-4682912_640.jpg");
+  background-image: url("./images/hairdresser-4682912_640.jpg");
   background-size: cover;
 }
 .text1 {
@@ -334,7 +379,7 @@ hr {
   height: 200px;
   width: 200px;
   background-color: orchid;
-  background-image: url("/images/nail-2583493_640.jpg");
+  background-image: url("./images/nail-2583493_640.jpg");
   background-size: cover;
 }
 .text2 {
@@ -350,7 +395,7 @@ hr {
   height: 200px;
   width: 200px;
   background-color: olive;
-  background-image: url("/images/makeup-791303_640.jpg");
+  background-image: url("./images/makeup-791303_640.jpg");
   background-size: cover;
   
 }
@@ -458,7 +503,7 @@ Footer p {
   height: 500px;
   width: 100%;
   background-color: lightgray;
-  background-image: url("/images/fashion-3080644_1920.jpg");
+  background-image: url("./images/fashion-3080644_1920.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -489,7 +534,7 @@ Footer p {
 	padding: 10%;
 	color: #fff;
 	background-color: #520;
-  background-image: url("/images/comb-350077_1920.jpg");
+  background-image: url("./images/comb-350077_1920.jpg");
   background-size: cover;
   background-position: center;
 	/*background-position: center 75%;
