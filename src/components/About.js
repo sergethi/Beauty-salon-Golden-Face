@@ -18,9 +18,9 @@ function About() {
         <div className="about-flex-img"></div>
       </div>
       
-      <div className="about-img-3"></div>
-      <div className="about-img-4"></div>
-      <div className="about-img-5"></div>
+      <div className="about-img-3"><h2>we do nails</h2></div>
+      <div className="about-img-4"><h2>we do hair</h2></div>
+      <div className="about-img-5"><h2>we do makeup</h2></div>
       
       
     </section>

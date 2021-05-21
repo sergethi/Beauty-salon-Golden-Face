@@ -155,9 +155,7 @@ Footer p {
 .about-flex-text {
   margin-top: 40px;
   height: 400px;
-  width: 50%;
-
-  
+  width: 50%; 
 }
 .about-flex-img {
   background-image: url("./images/about-unsplash.jpg");
@@ -171,6 +169,9 @@ Footer p {
   width: 100%;
   height: 600px;
   margin-bottom: 20px;
+}
+.about-img-3 > h2, .about-img-4 > h2, .about-img-5 > h2{
+  margin-top: 100px;
 }
 .about-img-4{
   background-image: url("./images/about-hair-unsplash.jpg");
@@ -225,8 +226,8 @@ hr {
   
 }
 .pic1{
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: lime;
   background-image: url("./images/hairdresser-4682912_640.jpg");
   background-size: cover;
@@ -242,8 +243,8 @@ hr {
   margin-left: 8px;
 }
 .pic2{
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: orchid;
   background-image: url("./images/nail-2583493_640.jpg");
   background-size: cover;
@@ -259,8 +260,8 @@ hr {
   margin-left: 8px;
 }
 .pic3{
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
   background-color: olive;
   background-image: url("./images/makeup-791303_640.jpg");
   background-size: cover;
@@ -314,6 +315,24 @@ margin-left: 23px;
   background-color: lightgray;
   background-image: url("./images/makeup-5564392_1920.png");
   background-size: cover;
+}
+.about-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.about-flex-text {
+  /* margin-top: 15px; */
+  /* height: 400px; */
+  width: 100%;
+
+  
+}
+.about-flex-img {
+  /* background-image: url("./images/about-unsplash.jpg");
+  background-size: cover; */
+  height: 400px;
+  width: 100%;
 }
 
 
@@ -527,7 +546,7 @@ Footer p {
 
 } */
 
-/* form styles */
+/* form styles .....................................................*/
 
 .hero {
 	text-align: center;
@@ -553,8 +572,10 @@ Footer p {
 }
 .left-container {
   height: 800px;
-  width: 800px;
+  width: 700px;
   background-color: purple;
+  border: 1px solid #e9d8c8;
+	border-radius: 6px;
 }
 
 
@@ -564,7 +585,7 @@ form {
   border: 1px solid #e9d8c8;
 	border-radius: 6px;
   padding: 5%;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 form p {
   text-align: justify;
@@ -610,9 +631,15 @@ button {
   margin-top: 80px;
   margin-bottom: 40px;
 }
+.form-address > p, .form-call > p {
+  color: white;
+}
 
 .form-call {
   margin-bottom: 40px;
+}
+.form-envelop > a {
+  color: white;
 }
 
 

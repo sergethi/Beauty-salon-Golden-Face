@@ -30,7 +30,10 @@ function Nav() {
 
   return (
     <nav>
-      <h3>Golden-Face</h3>
+      <Link to="/Home">
+        <h3>Golden-Face</h3>
+      </Link>
+      
 
       <CSSTransition
            in={!isSmallScreen || isNavVisible}

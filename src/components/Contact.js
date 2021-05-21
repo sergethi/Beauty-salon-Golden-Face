@@ -134,7 +134,7 @@ class Contact extends Component {
 
             </div>
             <form onSubmit={this.handleSubmit}>
-            <p>Fill out this form, and one of our coffee specialists will get in touch with you to figure out which coffees are best suited to your tastes. This personalized attention ensures you’ll get the most our of your Hipstirred membership.</p>
+            <p>Fill out this form, and we will get in touch with you to figure how we can serve you better. See you soon!!!.</p>
               <label for="fullName">Full Name</label>
               <input  className="fullNameField" type="text" value = {this.state.fullname} onChange = {this.handleFullName}/>
               <label for="email">Email</label>
