@@ -1,15 +1,23 @@
 const express = require('express')
 const bodyParser = require('body-parser')
  const nodemailer = require('nodemailer')
+ const path = require('path')
 // const cors = require('cors')
 // const { response } = require('express')
- const PORT = process.env.PORT||8080
+ const PORT = process.env.PORT||5000
 
  const app = express()
 
  app.use(bodyParser.json())
  app.use(bodyParser.urlencoded({extended:true}))
 // app.use(cors())
+
+// Serve static files from the React frontend app
+app.use(express.static(path.join(__dirname, 'build')))
+// Anything that doesn't match the above, send back index.html
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/public/build/index.html'))
+})
 
 app.get('/', (req, res)=>{
     res.send("hello world!!! whhuophdg")
