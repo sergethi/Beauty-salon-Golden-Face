@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29db8ebe.chunk.css",
+    "main.js": "/static/js/main.92ccb826.chunk.js",
+    "main.js.map": "/static/js/main.92ccb826.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.92f070fd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.92f070fd.js.map",
+    "static/js/2.3f356af6.chunk.js": "/static/js/2.3f356af6.chunk.js",
+    "static/js/2.3f356af6.chunk.js.map": "/static/js/2.3f356af6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.29db8ebe.chunk.css.map": "/static/css/main.29db8ebe.chunk.css.map",
+    "static/js/2.3f356af6.chunk.js.LICENSE.txt": "/static/js/2.3f356af6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/nail-2583493_640.ad721f27.jpg",
+    "static/media/addressIcon.33148228.png": "/static/media/addressIcon.33148228.png",
+    "static/media/phone-call.8f0be3fb.png": "/static/media/phone-call.8f0be3fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92f070fd.js",
+    "static/js/2.3f356af6.chunk.js",
+    "static/css/main.29db8ebe.chunk.css",
+    "static/js/main.92ccb826.chunk.js"
+  ]
+}
