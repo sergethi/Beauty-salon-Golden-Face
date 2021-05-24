@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#web: node index.js (Procfile)
+ Procfile
+
 # production
 /build
 
