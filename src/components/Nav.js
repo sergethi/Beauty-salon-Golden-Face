@@ -57,9 +57,9 @@ function Nav() {
       </Link>
       </ul>
       </CSSTransition>
-      <a  className = "burger-icon" onClick = {toggleNav}>
+      <div  className = "burger-icon" onClick = {toggleNav}>
       <img src="/iconfinder_Burger_Menu.png" width="24" height="24" alt="Phone"/>
-      </a>
+      </div>
     </nav>
   )
 }

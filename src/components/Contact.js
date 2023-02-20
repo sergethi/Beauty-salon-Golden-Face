@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { withStyles} from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
-import SendIcon from '@material-ui/icons/Send';
+// import { withStyles} from '@material-ui/core/styles';
+// import TextField from '@material-ui/core/TextField';
+// import Button from '@material-ui/core/Button';
+// import SendIcon from '@material-ui/icons/Send';
 import axios from 'axios'
 import address from '../images/addressIcon.png'
 import envelope from '../images/envelope.png'
@@ -106,7 +106,7 @@ class Contact extends Component {
 
 
   render() {
-    const { classes } = this.props;
+    //const { classes } = this.props;
     return (
       <section className="contact-main">
             <div class="hero">
@@ -154,80 +154,5 @@ class Contact extends Component {
 }
 export default Contact;
 
-{/* export default withStyles(styles)(Contact); */}
-
-      {/* <h1>Contact Us </h1>
-     <form  onSubmit={this.handleSubmit}  className={classes.root} noValidate autoComplete="off" 
-      
-     >
-    
-     <TextField className={classes.name} id="outlined-basic" label="Full Name" variant="outlined" 
-      InputProps={{
-       classes: {
-         root: classes.cssOutlinedInput,
-         notchedOutline: classes.notchedOutline,
-       },
-       inputMode: "numeric"
-     }}
-     InputLabelProps={{
-       classes: {
-         root: classes.cssLabel,
-        
-       },
-     }}
-     value = {this.state.fullname}
-     onChange = {this.handleFullName}
-     /><br/>
-     <TextField className={classes.email} id="outlined-basic" label="Email" variant="outlined" 
-      InputProps={{
-       classes: {
-         root: classes.cssOutlinedInput,
-         notchedOutline: classes.notchedOutline,
-       },
-       inputMode: "numeric"
-     }}
-     InputLabelProps={{
-       classes: {
-         root: classes.cssLabel,
-        
-       },
-     }}
-     value = {this.state.email}
-     onChange = {this.handleEmail}
-     /><br/>
-     <TextField
-     className={classes.area}
-       id="outlined-multiline-static"
-       label="Message"
-       multiline
-       rows={10}
-       variant="outlined"
-       InputProps={{
-         classes: {
-           root: classes.cssOutlinedInput,
-
-           notchedOutline: classes.notchedOutline,
-         },
-         inputMode: "numeric"
-       }}
-       InputLabelProps={{
-         classes: {
-           root: classes.cssLabel,
-          
-         },
-       }}
-       value = {this.state.message}
-     onChange = {this.handleMessage}
-     /><br/>
-      <Button
-      type="submit"
-       variant="contained"
-       color="primary"
-       className={classes.button}
-       endIcon={<SendIcon/>}
-     >
-       Send
-     </Button>
-   </form> */}
   
 
